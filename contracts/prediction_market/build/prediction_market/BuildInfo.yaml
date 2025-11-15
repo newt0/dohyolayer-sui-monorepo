@@ -2,18 +2,20 @@
 compiled_package_info:
   package_name: prediction_market
   address_alias_instantiation:
+    bridge: 000000000000000000000000000000000000000000000000000000000000000b
     prediction_market: "0000000000000000000000000000000000000000000000000000000000000000"
     std: "0000000000000000000000000000000000000000000000000000000000000001"
     sui: "0000000000000000000000000000000000000000000000000000000000000002"
-  source_digest: 3BD8E16DA27405A2BD51C9F1EB3FA6706DCD97D4B0F13EAF9BA95C3CB8B4917D
+    sui_system: "0000000000000000000000000000000000000000000000000000000000000003"
+  source_digest: A87C957E12F6BF39667311C7922622852C43A7F465B0E874CFA02EA53BD24D5C
   build_flags:
-    dev_mode: false
-    test_mode: false
+    dev_mode: true
+    test_mode: true
     generate_docs: false
     save_disassembly: false
     install_dir: ~
     force_recompilation: false
-    lock_file: "./Move.lock"
+    lock_file: ~
     fetch_deps_only: false
     skip_fetch_latest_git_deps: false
     default_flavor: sui
@@ -68,5 +70,7 @@ compiled_package_info:
           digest: ~
           dep_override: true
 dependencies:
+  - Bridge
   - MoveStdlib
   - Sui
+  - SuiSystem

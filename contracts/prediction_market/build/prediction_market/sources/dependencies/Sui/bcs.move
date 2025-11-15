@@ -75,7 +75,12 @@ public fun into_remainder_bytes(bcs: BCS): vector<u8> {
 /// Read address from the bcs-serialized bytes.
 public fun peel_address(bcs: &mut BCS): address {
     assert!(bcs.bytes.length() >= address::length(), EOutOfRange);
-    address::from_bytes(vector::tabulate!(address::length(), |_| bcs.bytes.pop_back()))
+    let (mut addr_bytes, mut i) = (vector[], 0);
+    while (i < address::length()) {
+        addr_bytes.push_back(bcs.bytes.pop_back());
+        i = i + 1;
+    };
+    address::from_bytes(addr_bytes)
 }
 
 /// Read a `bool` value from bcs-serialized bytes.
@@ -157,7 +162,14 @@ public fun peel_vec_length(bcs: &mut BCS): u64 {
 /// functionality of peeling each value.
 public macro fun peel_vec<$T>($bcs: &mut BCS, $peel: |&mut BCS| -> $T): vector<$T> {
     let bcs = $bcs;
-    vector::tabulate!(bcs.peel_vec_length(), |_| $peel(bcs))
+    let len = bcs.peel_vec_length();
+    let mut i = 0;
+    let mut res = vector[];
+    while (i < len) {
+        res.push_back($peel(bcs));
+        i = i + 1;
+    };
+    res
 }
 
 /// Peel a vector of `address` from serialized bytes.

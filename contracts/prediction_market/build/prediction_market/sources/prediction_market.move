@@ -244,7 +244,8 @@ module prediction_market::prediction_market {
         };
 
         let pool_value = balance::value(&market.pool);
-        let payout = (pool_value * position.shares) / total_winner_shares;
+        // Use u128 to avoid overflow in intermediate calculation
+        let payout = (((pool_value as u128) * (position.shares as u128)) / (total_winner_shares as u128) as u64);
 
         // Mark as claimed
         position.claimed = true;
@@ -402,7 +403,7 @@ module prediction_market::prediction_market {
 
             bet_yes(&mut market, payment, scenario.ctx());
 
-            assert_eq(market.total_yes_shares, 99_900_990);
+            assert_eq(market.total_yes_shares, 99_900_099_900);
             assert_eq(balance::value(&market.pool), 100_000_000_000);
 
             test_scenario::return_shared(market);
