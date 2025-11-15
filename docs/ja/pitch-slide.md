@@ -1,4 +1,4 @@
-Create a 9-slide pitch deck for "DOHYO Layer" - a Web3 platform transforming martial arts from spectator sport to fan co-created entertainment.
+Create a 10-slide pitch deck for "DOHYO Layer" - a Web3 platform transforming martial arts from spectator sport to fan co-created entertainment.
 
 IMPORTANT: All slide content must be in ENGLISH only.
 
@@ -12,24 +12,44 @@ Overall Style: Modern, energetic, professional martial arts theme with Web3 tech
 
 ---
 
-Slide 1: Title & Team Introduction
+Slide 1: Title
 Title: "DOHYO Layer"
 Subtitle: "Transforming Martial Arts from Spectator Sport to Fan Co-Created Entertainment"
 
 Content:
 
-- Large DOHYO Layer logo at top
+- Large DOHYO Layer logo centered
 - Subtitle below logo
-- "Web3 Martial Arts Fighter Team" heading
-- Team members in two columns:
-  - Kyohei: Aikido Black Belt | Former LeadEdge CTO | Sony Chain R&D | Bunzz $4.5M raised
-  - James Xu: Former Pro Kickboxer | Aoyama Gakuin MBA | Web3 × Martial Arts ventures
+- "Sui × ONE Championship Hackathon 2024" at bottom
 
-Visual: Powerful martial arts imagery or ring background, team photos with athletic poses
+Visual: Powerful martial arts imagery, dramatic ring or arena background with lighting effects
 
 ---
 
-Slide 2: Problem Statement
+Slide 2: Team Introduction
+Title: "Web3 Martial Arts Fighter Team"
+
+Content in two columns:
+
+Left column - Kyohei:
+
+- Aikido Black Belt
+- Former LeadEdge CTO (FWJ - Japan's largest bodybuilding contest)
+- Sony Chain R&D
+- Ito Junji 160ETH NFT sale success
+- Bunzz $4.5M seed round
+
+Right column - James Xu:
+
+- Former Pro Kickboxer
+- Aoyama Gakuin University MBA
+- Multiple Web3 × Martial Arts ventures
+
+Visual: Team photos with athletic or professional poses, martial arts themed background
+
+---
+
+Slide 3: Problem Statement
 Layout: Split design showing contrast
 
 Left section - "ONE Championship":
@@ -50,7 +70,7 @@ Visual: Arrow or diagram connecting the sections
 
 ---
 
-Slide 3: Solution - 5 Phase Strategy
+Slide 4: Solution - 5 Phase Strategy
 Title: "DOHYO Layer: 5 Phase Strategy"
 
 Layout: Horizontal timeline with 5 phases, each with icon
@@ -74,7 +94,7 @@ Visual: Timeline format with distinct badges for MVP and Concept phases
 
 ---
 
-Slide 4: Demo - Community Voting
+Slide 5: Demo - Community Voting
 Title: "Demo: Community Voting"
 
 Content:
@@ -86,7 +106,7 @@ Visual: Clean, simple layout with video player centered
 
 ---
 
-Slide 5: Demo - Sponsor NFT
+Slide 6: Demo - Sponsor NFT
 Title: "Demo: Sponsor NFT"
 
 Content:
@@ -98,7 +118,7 @@ Visual: Clean, simple layout with video player centered
 
 ---
 
-Slide 6: Concept - Prediction Market AMM
+Slide 7: Concept - Prediction Market AMM
 Title: "Prediction Market Concept"
 
 Content:
@@ -113,7 +133,7 @@ Visual:
 
 ---
 
-Slide 7: Sui Integration
+Slide 8: Sui Integration
 Title: "Sui Integration"
 
 Content in 3 sections with icons:
@@ -134,7 +154,7 @@ Visual: Sui and Walrus logos, simple architecture diagram showing the 3 componen
 
 ---
 
-Slide 8: Partnership & Roadmap
+Slide 9: Partnership & Roadmap
 Title split into two sections
 
 Top section - "Partnership":
@@ -150,7 +170,7 @@ Visual: 3-step timeline with icons
 
 ---
 
-Slide 9: Ending - Vision
+Slide 10: Ending - Vision
 Title: "DOHYO Layer"
 
 Content (centered, large text):
@@ -172,6 +192,8 @@ Design Notes:
 - Keep text minimal and readable from distance
 - Use high-quality martial arts photography
 - Maintain consistent icon style throughout
-- Slides 4-5 should have video placeholders that can be replaced with actual demo videos
+- Slides 5-6 should have video placeholders that can be replaced with actual demo videos
 - Use animations sparingly, only for key transitions
 - Ensure all text is large enough to read in presentation mode
+- Slide 1 should have maximum visual impact as the opening
+- Slide 2 should establish team credibility with professional layout
