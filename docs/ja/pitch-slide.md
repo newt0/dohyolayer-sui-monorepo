@@ -26,18 +26,16 @@ Visual: Powerful martial arts imagery, dramatic ring or arena background with li
 
 ---
 
-Slide 2: Team Introduction
+Slide 2: Our Team
 Title: "Web3 Martial Arts Fighter Team"
 
 Content in two columns:
 
-Left column - Kyohei:
+Left column - Kyohei Ito:
 
 - Aikido Black Belt
 - Former LeadEdge CTO (FWJ - Japan's largest bodybuilding contest)
-- Sony Chain R&D
-- Ito Junji 160ETH NFT sale success
-- Bunzz $4.5M seed round
+- Sony Chain R&D, Sony Bank stablecoin PoC etc.
 
 Right column - James Xu:
 
